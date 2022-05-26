@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="constainer">
+      <form id="formId">
+        <h1>Hotel Check In Form</h1>
+        <br />
+
+        <div class="input-control">
+          <label for="firstname">First Name:</label>
+          <input
+            type="text"
+            name="username"
+            id="firstname"
+            placeholder="Your First Name"
+          />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="lastname">Last Name:</label>
+          <input
+            type="text"
+            name="lasname"
+            id="lastname"
+            placeholder="Your Last Name"
+          />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Example@someone.com"
+          />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="phone">Phone Number:</label>
+          <input type="number" name="phone" id="phone" placeholder="+257|" />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="date" />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="checkintime">Check In Time:</label>
+          <input type="time" name="checkintime" id="checkintime" />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="checkouttime">Check Out Time:</label>
+          <input type="time" name="checkouttime" id="checkouttime" />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <button id="btn">Chek In</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
